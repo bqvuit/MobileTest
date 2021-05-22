@@ -9,7 +9,7 @@ Feature: Test login
 
     Examples:
     |userName|password|
-    |"0968440699"|"Vu123456="|
+    |"input correct user name"|" input correct password"|
 
   Scenario Outline: Login failed
     Given open the app
