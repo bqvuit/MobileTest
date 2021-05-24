@@ -1,9 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="BookingExampleTest" verbose="1" parallel="tests" thread-count="2" configfailurepolicy="continue">
-    <listeners>
-        <listener class-name="com.example.booking.manage.TestListener"/>
-    </listeners>
+<suite name="BookingExampleTest" verbose="1" parallel="tests" thread-count="1" configfailurepolicy="continue">
     <test name="BookingExampleTest">
         <classes>
             <class name="com.example.booking.configurations.CukesTestRunner"/>
